@@ -1,17 +1,10 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext, MessageHandler, filters, CallbackQueryHandler
 from telegram import ChatPermissions, Update
-from telegram import ChatMember
-from telegram import InputFile
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from fastapi import FastAPI
 import wikipediaapi
 import requests
 import yt_dlp
 import os
 import random
-import datetime
 import asyncio
-import re
-import time
-import aiohttp
